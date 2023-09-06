@@ -1,0 +1,22 @@
+.login-container{
+    background-color: #293146;
+}
+// form边框加阴影
+html[data-theme='dark'] {
+    .login-form {
+        background-color: #293146;
+        color: rgba(255, 255, 255, 0.65);
+        .ant-input, .ant-input-password{
+            background-color: #232a3b;
+            // placeholder 字体颜色
+            &::placeholder{
+                color: rgba(255, 255, 255, 0.65);
+            }
+            color: rgba(255, 255, 255, 0.65);
+        }
+        .ant-btn, .ant-checkbox-wrapper, .ant-form-item .anticon {
+            color: rgba(255, 255, 255, 0.65);
+        }
+        
+    }
+}
